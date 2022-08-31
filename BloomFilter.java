@@ -11,10 +11,9 @@ import java.util.Scanner;
 public class BloomFilter {
 
     final static int NUMBER_OF_BITS = 6400;
-
+    final static HashFunction h3 = new HashFunction(31, 29);
     final static HashFunction h1 = new HashFunction(11, 9);
     final static HashFunction h2 = new HashFunction(17, 15);
-    final static HashFunction h3 = new HashFunction(31, 29);
     final static HashFunction h4 = new HashFunction(61, 59);
     
     
