@@ -11,13 +11,13 @@ public class bloomFilterVisualization extends JFrame implements ActionListener
   private JPanel topPanel,topLeftPanel,topRightPanel,middlePanel,middleLeftPanel,middleRightPanel,arrayPanel;
   private JLabel hash1,hash2,check;
   private JLabel ansHash1,ansHash2,ansCheck;
-  private JButton btnAdd,btnCheck;
   private JList <String> List;
   private DefaultListModel <String> model;
   private JTextField tf,tfCheck;
   private JTable table;
   private JScrollPane scrollPane;
   private byte[] myArray;
+  private JButton btnAdd,btnCheck;
   
   public bloomFilterVisualization()
   {
